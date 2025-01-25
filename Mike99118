@@ -1,0 +1,14 @@
+local g = Instance.new("ScreenGui")
+g.Name = "G"
+g.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+local i = Instance.new("ImageLabel")
+i.Name = "I"
+i.Image = "rbxassetid://83848309036125"
+i.Size = UDim2.new(1, 0, 1, 0)
+i.Position = UDim2.new(0, 0, 0, 0)
+i.BackgroundTransparency = 0
+i.Parent = g
+
+wait(5)
+i.Visible = false
